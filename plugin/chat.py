@@ -172,10 +172,11 @@ class ChatManager:
         return False
 
 # ====================== 全局实例（支持环境变量配置） ======================
-YOUR_ARK_API_KEY = os.getenv("ARK_API_KEY", "8c09bbf4-311a-4ca8-9678-6656774b1247")
+YOUR_ARK_API_KEY = os.getenv("ARK_API_KEY", "自行获取")
 YOUR_MODEL_ID = os.getenv("ARK_MODEL_ID", "doubao-seed-1-8-251228")
 
 chat_manager = ChatManager(
     api_key=YOUR_ARK_API_KEY,
     model_id=YOUR_MODEL_ID
 )
+
