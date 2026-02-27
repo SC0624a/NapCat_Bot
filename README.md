@@ -3,7 +3,9 @@
 
 ## 食用建议
 > 本项目使用Python **3.14.0**开发
+> 
 > 首先请确保你已安装[NapCat](https://github.com/NapNeko/NapCatQQ)客户端,配置好http/ws服务（请自行去NapCat官方文档找教学）
+> 
 > 其次，**clone**本项目到本地后**pip**安装所需的库，然后就可以尽情使用啦~
 
 # 目录介绍
