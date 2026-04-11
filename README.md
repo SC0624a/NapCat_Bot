@@ -10,21 +10,24 @@
 
 # 目录介绍
 ```
-NapCat_Bot/          # 项目根目录
+NapCat_Bot/                # 项目根目录
 │
-├── plugin/                # 一些插件
-│   ├── chat.py            # 豆包ai
-│   ├── ks_video.py        # ks视频解析
-│   └── md2img.py          # md转图片
+├── plugins/               # 插件包
+│   │
+│   ├── dic/               # 插件包dic
+│   │   ├── __init__.py    # 入口
+│   │   └── main.py        # 功能实现
+│   │
+│   └── set/
+│       ├── __init__.py    # 入口
+│       ├── chat.py        # 豆包聊天
+│       └── md2img.py      # md文档转图片
 │
 ├── LICENSE                 # 许可证文件
 ├── README.md               # 项目说明文档
-├── api.py                  # api封装
-├── command.py              # 消息监听/命令注册
-├── dic.py                  # 具体功能实现
+├── config.py               # 配置文件
 ├── main.py                 # 入口文件
-├── api.py                  # 消息处理
-└──  run.bat                 # 快速启动
+└── run.bat                 # 快速启动
 ```
 
 # 关于本项目
