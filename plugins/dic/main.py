@@ -8,8 +8,6 @@ from io import StringIO
 from plugins.set import md2img
 from plugins.set.chat import chat_manager
 from plugins.set.ks_video import extract_ks_video
-from plugins.set.mh import rd_mh,num_3_mh
-from plugins.set.xlr import calculate_three_shen
 
 
 a = on_command("测试")
